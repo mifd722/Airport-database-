@@ -1,4 +1,6 @@
+ CREATE DATABASE airport_management;
 
+USE airport_management; 
 CREATE TABLE Airline (
     airline_id INT PRIMARY KEY AUTO_INCREMENT,
     airline_name VARCHAR(100) NOT NULL UNIQUE,
